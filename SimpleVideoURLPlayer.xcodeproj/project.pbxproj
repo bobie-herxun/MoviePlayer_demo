@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8091F7FF16E989E300E3B51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8091F7FE16E989E300E3B51D /* UIKit.framework */; };
+		8091F80116E989E300E3B51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8091F80016E989E300E3B51D /* Foundation.framework */; };
+		8091F80316E989E300E3B51D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8091F80216E989E300E3B51D /* CoreGraphics.framework */; };
+		8091F80916E989E300E3B51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8091F80716E989E300E3B51D /* InfoPlist.strings */; };
+		8091F80B16E989E300E3B51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8091F80A16E989E300E3B51D /* main.m */; };
+		8091F80F16E989E300E3B51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8091F80E16E989E300E3B51D /* AppDelegate.m */; };
+		8091F81116E989E300E3B51D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8091F81016E989E300E3B51D /* Default.png */; };
+		8091F81316E989E300E3B51D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8091F81216E989E300E3B51D /* Default@2x.png */; };
+		8091F81516E989E300E3B51D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8091F81416E989E300E3B51D /* Default-568h@2x.png */; };
+		8091F81816E989E300E3B51D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8091F81616E989E300E3B51D /* MainStoryboard.storyboard */; };
+		8091F81B16E989E300E3B51D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8091F81A16E989E300E3B51D /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8091F7FB16E989E300E3B51D /* SimpleVideoURLPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVideoURLPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8091F7FE16E989E300E3B51D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8091F80016E989E300E3B51D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8091F80216E989E300E3B51D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8091F80616E989E300E3B51D /* SimpleVideoURLPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleVideoURLPlayer-Info.plist"; sourceTree = "<group>"; };
+		8091F80816E989E300E3B51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8091F80A16E989E300E3B51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8091F80C16E989E300E3B51D /* SimpleVideoURLPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleVideoURLPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		8091F80D16E989E300E3B51D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8091F80E16E989E300E3B51D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8091F81016E989E300E3B51D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8091F81216E989E300E3B51D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8091F81416E989E300E3B51D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8091F81716E989E300E3B51D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8091F81916E989E300E3B51D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8091F81A16E989E300E3B51D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8091F7F816E989E300E3B51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8091F7FF16E989E300E3B51D /* UIKit.framework in Frameworks */,
+				8091F80116E989E300E3B51D /* Foundation.framework in Frameworks */,
+				8091F80316E989E300E3B51D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8091F7F216E989E300E3B51D = {
+			isa = PBXGroup;
+			children = (
+				8091F80416E989E300E3B51D /* SimpleVideoURLPlayer */,
+				8091F7FD16E989E300E3B51D /* Frameworks */,
+				8091F7FC16E989E300E3B51D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8091F7FC16E989E300E3B51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8091F7FB16E989E300E3B51D /* SimpleVideoURLPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8091F7FD16E989E300E3B51D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8091F7FE16E989E300E3B51D /* UIKit.framework */,
+				8091F80016E989E300E3B51D /* Foundation.framework */,
+				8091F80216E989E300E3B51D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8091F80416E989E300E3B51D /* SimpleVideoURLPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8091F80D16E989E300E3B51D /* AppDelegate.h */,
+				8091F80E16E989E300E3B51D /* AppDelegate.m */,
+				8091F81616E989E300E3B51D /* MainStoryboard.storyboard */,
+				8091F81916E989E300E3B51D /* ViewController.h */,
+				8091F81A16E989E300E3B51D /* ViewController.m */,
+				8091F80516E989E300E3B51D /* Supporting Files */,
+			);
+			path = SimpleVideoURLPlayer;
+			sourceTree = "<group>";
+		};
+		8091F80516E989E300E3B51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8091F80616E989E300E3B51D /* SimpleVideoURLPlayer-Info.plist */,
+				8091F80716E989E300E3B51D /* InfoPlist.strings */,
+				8091F80A16E989E300E3B51D /* main.m */,
+				8091F80C16E989E300E3B51D /* SimpleVideoURLPlayer-Prefix.pch */,
+				8091F81016E989E300E3B51D /* Default.png */,
+				8091F81216E989E300E3B51D /* Default@2x.png */,
+				8091F81416E989E300E3B51D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8091F7FA16E989E300E3B51D /* SimpleVideoURLPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8091F81E16E989E300E3B51D /* Build configuration list for PBXNativeTarget "SimpleVideoURLPlayer" */;
+			buildPhases = (
+				8091F7F716E989E300E3B51D /* Sources */,
+				8091F7F816E989E300E3B51D /* Frameworks */,
+				8091F7F916E989E300E3B51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleVideoURLPlayer;
+			productName = SimpleVideoURLPlayer;
+			productReference = 8091F7FB16E989E300E3B51D /* SimpleVideoURLPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8091F7F316E989E300E3B51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Bobie;
+			};
+			buildConfigurationList = 8091F7F616E989E300E3B51D /* Build configuration list for PBXProject "SimpleVideoURLPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8091F7F216E989E300E3B51D;
+			productRefGroup = 8091F7FC16E989E300E3B51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8091F7FA16E989E300E3B51D /* SimpleVideoURLPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8091F7F916E989E300E3B51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8091F80916E989E300E3B51D /* InfoPlist.strings in Resources */,
+				8091F81116E989E300E3B51D /* Default.png in Resources */,
+				8091F81316E989E300E3B51D /* Default@2x.png in Resources */,
+				8091F81516E989E300E3B51D /* Default-568h@2x.png in Resources */,
+				8091F81816E989E300E3B51D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8091F7F716E989E300E3B51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8091F80B16E989E300E3B51D /* main.m in Sources */,
+				8091F80F16E989E300E3B51D /* AppDelegate.m in Sources */,
+				8091F81B16E989E300E3B51D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8091F80716E989E300E3B51D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8091F80816E989E300E3B51D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8091F81616E989E300E3B51D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8091F81716E989E300E3B51D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8091F81C16E989E300E3B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8091F81D16E989E300E3B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8091F81F16E989E300E3B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleVideoURLPlayer/SimpleVideoURLPlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimpleVideoURLPlayer/SimpleVideoURLPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8091F82016E989E300E3B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleVideoURLPlayer/SimpleVideoURLPlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimpleVideoURLPlayer/SimpleVideoURLPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8091F7F616E989E300E3B51D /* Build configuration list for PBXProject "SimpleVideoURLPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8091F81C16E989E300E3B51D /* Debug */,
+				8091F81D16E989E300E3B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8091F81E16E989E300E3B51D /* Build configuration list for PBXNativeTarget "SimpleVideoURLPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8091F81F16E989E300E3B51D /* Debug */,
+				8091F82016E989E300E3B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8091F7F316E989E300E3B51D /* Project object */;
+}
