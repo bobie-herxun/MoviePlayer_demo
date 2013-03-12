@@ -18,6 +18,7 @@
 		8091F81516E989E300E3B51D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8091F81416E989E300E3B51D /* Default-568h@2x.png */; };
 		8091F81816E989E300E3B51D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8091F81616E989E300E3B51D /* MainStoryboard.storyboard */; };
 		8091F81B16E989E300E3B51D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8091F81A16E989E300E3B51D /* ViewController.m */; };
+		8091F82216E98A8000E3B51D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8091F82116E98A8000E3B51D /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		8091F81716E989E300E3B51D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8091F81916E989E300E3B51D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8091F81A16E989E300E3B51D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8091F82116E98A8000E3B51D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8091F82216E98A8000E3B51D /* MediaPlayer.framework in Frameworks */,
 				8091F7FF16E989E300E3B51D /* UIKit.framework in Frameworks */,
 				8091F80116E989E300E3B51D /* Foundation.framework in Frameworks */,
 				8091F80316E989E300E3B51D /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		8091F7FD16E989E300E3B51D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8091F82116E98A8000E3B51D /* MediaPlayer.framework */,
 				8091F7FE16E989E300E3B51D /* UIKit.framework */,
 				8091F80016E989E300E3B51D /* Foundation.framework */,
 				8091F80216E989E300E3B51D /* CoreGraphics.framework */,
